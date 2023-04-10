@@ -5,5 +5,64 @@
     font-size: 10px;
 }
 body{
-    /* background-color:blue; */
+ font-family: Arial, sans-serif;
 }
+.container{
+    width:90%;
+    margin:auto;
+}
+nav{
+    background-color: #c12323;
+}
+.nav-content{
+    display:flex;
+    justify-content: space-between;
+}
+.nav-links{
+    margin-top: 10px;
+}
+.nav-links ul{
+    list-style-type: none;
+    padding:0;
+}
+.nav-links ul li{
+    display:inline;
+    padding-left: 10px;
+}
+.nav-links ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+.newsletter-modal{
+    display:none;
+    width:100vw;
+    height:100vh;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:rgba(0, 0, 0, .5);
+}
+.newsletter-bg{
+    width:50%;
+    margin:100px auto;
+    padding:20px;
+    background-color: white;
+    text-align: center;
+}
+form h3{
+    color:darkcyan;
+}
+.form-group input{
+    width:60%;
+    padding:10px;
+    border:1px solid #eee;
+}
+.form-group button{
+    margin:0;
+    padding:10px;
+    border:none;
+    background-color: darkcyan;
+    color:white;
+}
+
